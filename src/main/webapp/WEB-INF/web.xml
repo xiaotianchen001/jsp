@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<servlet-class>com.example.web.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registerServlet</servlet-name>
+  	<servlet-class>com.example.web.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>showEmployee</servlet-name>
+  	<servlet-class>com.example.web.showEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>editEmployee</servlet-name>
+  	<servlet-class>com.example.web.editEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>editFinish</servlet-name>
+  	<servlet-class>com.example.web.submitEdit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>createEmployee</servlet-name>
+  	<servlet-class>com.example.web.createEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>deleteEmployee</servlet-name>
+  	<servlet-class>com.example.web.deleteEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>showDepartment</servlet-name>
+  	<servlet-class>com.example.web.showDepartment</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>deptServlet</servlet-name>
+  	<servlet-class>com.example.web.deptServlet</servlet-class>
+  </servlet>
+
+    
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registerServlet</servlet-name>
+  	<url-pattern>/register.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>showEmployee</servlet-name>
+  	<url-pattern>/Employee.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>editEmployee</servlet-name>
+  	<url-pattern>/editEmployee.do</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>editFinish</servlet-name>
+  	<url-pattern>/editFinish.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>createEmployee</servlet-name>
+  	<url-pattern>/createEmployee.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>deleteEmployee</servlet-name>
+  	<url-pattern>/deleteEmployee.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>showDepartment</servlet-name>
+  	<url-pattern>/Department.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>deptServlet</servlet-name>
+  	<url-pattern>/deptServlet.do</url-pattern>
+  </servlet-mapping>
+</web-app>
